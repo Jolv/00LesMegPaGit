@@ -1,0 +1,79 @@
+21:13 22.12.2015
+Ploting Thinspeak from:
+Arduino with BMP180 in Fuchsia:OnePotLogTensi_t2
+Multimon fetching XBee inputs: msiHw2_Vm51_t.ino
+Python program feeding Thingspeak: hPaTemp_ThingSpeak_V53_VS_tensiWtr_t0
+i tillegg kjøres en gammel versjon på "Vandrende jøde":Xbe_BmpA_V0 - LITT usikkert
+
+_____________________________________________
+07:33 27.11.2015
+Rebuiling and Testing of a combined tensiometer and water supply cone "tnsiWtrSply_2"
+
+____________________________________________
+After switch to Visual Studio 2015-06-01
+
+Collecting tensiometer readings:
+	BmpResLev_vm0  <<----????
+	Xbe_BmpA_V0 was reused from 27/5
+
+Collectiong Multi Sensor Input:
+	msiHw2_Vm3
+
+Monitoring Cottage:
+	HytMon_Vm10
+	
+
+________________________________________
+08:04 01.04.2015  
+
+msiHw2:
+	Compiling 'msiHw2_V3' for 'Arduino Mega 2560 or Mega ADK'
+	Binary sketch size: 13 442 bytes (used 5% of a 258 048 byte maximum) (1,07 secs)
+
+HytMon:
+	Compiling 'HytMon_10' for 'Arduino Mega 2560 or Mega ADK'
+	Binary sketch size: 14 554 bytes (used 6% of a 258 048 byte maximum) (3,50 secs)
+
+hPaTemp_ThingSpeak_V3.py 	05:34 14.04.2015
+	Stripped down version - previos version lost
+
+
+=========================================================
+07:51 29.04.2015
+Komplett kjede fra planten:
+
+  dråpeteller og BMP-trykksensor Leonardo tilkoplet XBee:
+	C:\Users\D9200\Dropbox\08 AutoMa\WaterMonitoring\DraapeTeller
+	BmpDrpCt_v0
+
+  msiHw2-modul som samler inn XBee meldinger:	
+	C:\Users\D9200\Dropbox\08 AutoMa\MSI
+	msiHw2_V10
+
+
+07:53 28.05.2015
+	C:\Users\D9200\Dropbox\08 AutoMa\IOT\InOfThi
+	hPaTemp_ThingSpeak_V20.py  
+	// in this version ONLY tension and temp is registered
+
+
+
+
+========================================================
+TESTS
+Drop Counter
+	DropTiming_Test 07.04.2015
+
+TraceAnaInput
+	TraceAnaInput 06.04.2015
+
+Set Seeed GPRS clock
+	dir  C:\Users\Public\Dropbox\08 AutoMa\Hyttun_Dev\SoWa
+	fil  setGPRSclock
+
+______________________________________
+XXX
+  	Fra 07:51 29.04.201
+	Pyton program overførerer til Thingspeak:
+	C:\Users\D9200\Dropbox\08 AutoMa\IOT\InOfThi
+	hPaTemp_ThingSpeak_V10.py
